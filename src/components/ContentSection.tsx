@@ -4,6 +4,7 @@ interface ContentSectionProps {
   heading: React.ReactNode;
   children: React.ReactNode;
   imageLabel: string;
+  imageSrc?: string;
   imageRight?: boolean;
   altBg?: boolean;
   id?: string;

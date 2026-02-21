@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import executiveSearchImg from "@/assets/executive-search-process.png";
 import HeroSection from "@/components/HeroSection";
 import ContentSection from "@/components/ContentSection";
 import HowWeWorkSection from "@/components/HowWeWorkSection";
