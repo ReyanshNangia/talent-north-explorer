@@ -1,3 +1,4 @@
+import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import ContentSection from "@/components/ContentSection";
 import HowWeWorkSection from "@/components/HowWeWorkSection";
@@ -9,11 +10,13 @@ import Footer from "@/components/Footer";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      <Navbar />
       {/* 1. Hero */}
       <HeroSection />
 
       {/* 2. Executive Search – image right */}
       <ContentSection
+        id="executive-search"
         heading={
           <>
             Executive search{" "}

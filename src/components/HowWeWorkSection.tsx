@@ -21,7 +21,7 @@ const points = [
 
 const HowWeWorkSection = () => {
   return (
-    <section className="section-padding section-alt-bg">
+    <section id="services" className="section-padding section-alt-bg">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row-reverse gap-12 lg:gap-16 items-center">
           {/* Text */}
