@@ -14,6 +14,7 @@ const ContentSection = ({
   heading,
   children,
   imageLabel,
+  imageSrc,
   imageRight = true,
   altBg = false,
   id,
@@ -38,7 +39,11 @@ const ContentSection = ({
 
           {/* Image */}
           <div className="flex-1 w-full">
-            <ImagePlaceholder label={imageLabel} />
+            {imageSrc ? (
+              <img src={imageSrc} alt={imageLabel} className="w-full rounded-xl shadow-sm" />
+            ) : (
+              <ImagePlaceholder label={imageLabel} />
+            )}
           </div>
         </div>
       </div>
