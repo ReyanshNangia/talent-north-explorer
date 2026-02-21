@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import logoImg from "@/assets/logo-transparent.png";
 
 const navLinks = [
   { label: "Executive Search", href: "#executive-search" },
@@ -35,13 +36,13 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 md:px-12 h-16 md:h-20">
         {/* Logo placeholder */}
-        <div
-          className={`text-xl font-bold tracking-tight transition-colors duration-500 ${
-            scrolled ? "text-foreground" : "text-white"
+        <img
+          src={logoImg}
+          alt="Talent North"
+          className={`h-10 md:h-12 w-auto transition-all duration-500 ${
+            scrolled ? "" : "brightness-0 invert"
           }`}
-        >
-          <span className="text-primary">Talent</span> North
-        </div>
+        />
 
         {/* Desktop links */}
         <ul className="hidden md:flex items-center gap-8">
