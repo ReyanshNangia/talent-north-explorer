@@ -26,6 +26,7 @@ const Index = () => {
           </>
         }
         imageLabel="Executive Search Image"
+        imageSrc={executiveSearchImg}
         imageRight
       >
         <p>
