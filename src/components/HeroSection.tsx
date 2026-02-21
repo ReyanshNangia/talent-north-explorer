@@ -1,14 +1,14 @@
-import ImagePlaceholder from "./ImagePlaceholder";
+import compassBg from "@/assets/compass.png";
 
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex flex-col">
-      {/* Background placeholder */}
+      {/* Background image */}
       <div className="absolute inset-0 z-0">
-        <ImagePlaceholder
-          label="Compass Background Image"
-          className="rounded-none border-0 h-full"
-          aspectRatio=""
+        <img
+          src={compassBg}
+          alt="Compass Background"
+          className="w-full h-full object-cover"
         />
       </div>
 
