@@ -1,5 +1,9 @@
 import Navbar from "@/components/Navbar";
 import executiveSearchImg from "@/assets/executive-search-process.png";
+import recceeImg from "@/assets/reccee_and_vantage.png";
+import talentMappingImg from "@/assets/talent_mapping.png";
+import leadershipImg from "@/assets/leadership_image.jpeg";
+import familyImg from "@/assets/Family_image.png";
 import HeroSection from "@/components/HeroSection";
 import ContentSection from "@/components/ContentSection";
 import HowWeWorkSection from "@/components/HowWeWorkSection";
@@ -45,6 +49,7 @@ const Index = () => {
       <ContentSection
         heading="Recce & Vantage - Leadership Assessment & Talent Intelligence"
         imageLabel="Recce & Vantage Image"
+        imageSrc={recceeImg}
         imageRight
       >
         <p>
@@ -59,6 +64,7 @@ const Index = () => {
       <ContentSection
         heading="Talent Mapping – Proactive Leadership Pipeline & Market Intelligence"
         imageLabel="Talent Mapping Image"
+        imageSrc={talentMappingImg}
         imageRight={false}
         altBg
       >
@@ -77,6 +83,7 @@ const Index = () => {
       <ContentSection
         heading="Leadership Development – Aligning Talent, Culture & Performance"
         imageLabel="Leadership Development Image"
+        imageSrc={leadershipImg}
         imageRight
       >
         <p>
@@ -91,6 +98,7 @@ const Index = () => {
       <ContentSection
         heading="Family Business Succession Planning – Aligning ownership, leadership & family priorities for sustainable continuity"
         imageLabel="Succession Planning Image"
+        imageSrc={familyImg}
         imageRight={false}
         altBg
       >

@@ -1,4 +1,4 @@
-import ImagePlaceholder from "./ImagePlaceholder";
+import benchmarkingImg from "@/assets/benchmarking.png";
 
 const cards = [
   {
@@ -43,7 +43,7 @@ const BenchmarkingSection = () => {
 
           {/* Image */}
           <div className="flex-1 w-full lg:sticky lg:top-28">
-            <ImagePlaceholder label="Benchmarking Image" />
+            <img src={benchmarkingImg} alt="Benchmarking" className="w-full rounded-xl shadow-sm" />
           </div>
         </div>
       </div>

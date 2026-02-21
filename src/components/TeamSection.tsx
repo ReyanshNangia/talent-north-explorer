@@ -1,20 +1,18 @@
 import { Linkedin, Mail } from "lucide-react";
-import ImagePlaceholder from "./ImagePlaceholder";
+import prafulImg from "@/assets/praful.jpeg";
+import geetanjaliImg from "@/assets/geetanjali_image.jpeg";
 
 interface TeamMemberProps {
   name: string;
   title: string;
   bio: React.ReactNode;
+  imageSrc: string;
 }
 
-const TeamMember = ({ name, title, bio }: TeamMemberProps) => (
+const TeamMember = ({ name, title, bio, imageSrc }: TeamMemberProps) => (
   <div className="flex flex-col items-center text-center">
     <div className="w-48 h-48 mb-6">
-      <ImagePlaceholder
-        label="Profile Pic"
-        className="rounded-full h-full"
-        aspectRatio=""
-      />
+      <img src={imageSrc} alt={name} className="rounded-full w-full h-full object-cover shadow-md" />
     </div>
     <h3 className="text-xl font-bold text-foreground">{name}</h3>
     <p className="text-primary font-medium mb-4">{title}</p>
@@ -51,6 +49,7 @@ const TeamSection = () => {
           <TeamMember
             name="Maj Praful Nangia"
             title="Partner – Talent North"
+            imageSrc={prafulImg}
             bio={
               <>
                 <p>Praful is a seasoned executive search and leadership advisory professional who works closely with clients to decode complex talent needs in fast-evolving business environments. He has led and delivered critical cross-border leadership mandates, attracting global talent to Indian organisations.</p>
@@ -63,6 +62,7 @@ const TeamSection = () => {
           <TeamMember
             name="Geetanjali Ohri"
             title="Partner – Talent North"
+            imageSrc={geetanjaliImg}
             bio={
               <>
                 <p>Geetanjali Ohri is a seasoned business professional and certified Life Coach with over two and a half decades of experience across multinationals, Indian enterprises, and start-ups. Her career spans deep engagement with business strategy, leadership transitions, and organizational scale, enabling her to identify talent needs in direct alignment with business context.</p>
