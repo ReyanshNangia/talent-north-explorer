@@ -42,7 +42,7 @@ const TeamMember = ({ name, title, bio }: TeamMemberProps) => (
 
 const TeamSection = () => {
   return (
-    <section className="section-padding section-alt-bg">
+    <section id="team" className="section-padding section-alt-bg">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-12 text-center">
           Meet the Team
