@@ -1,4 +1,4 @@
-import ImagePlaceholder from "./ImagePlaceholder";
+import coachingImg from "@/assets/coaching.png";
 
 const coachingPoints = [
   {
