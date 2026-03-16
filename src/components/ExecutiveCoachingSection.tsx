@@ -1,4 +1,4 @@
-import ImagePlaceholder from "./ImagePlaceholder";
+import coachingImg from "@/assets/coaching.png";
 
 const coachingPoints = [
   {
@@ -45,7 +45,7 @@ const ExecutiveCoachingSection = () => {
 
           {/* Image */}
           <div className="flex-1 w-full">
-            <ImagePlaceholder label="Executive Coaching" />
+            <img src={coachingImg} alt="Executive Coaching" className="w-full rounded-xl shadow-sm" />
           </div>
         </div>
 
