@@ -7,6 +7,7 @@ interface TeamMemberProps {
   title: string;
   bio: React.ReactNode;
   imageSrc: string;
+  linkedIn?: string;
 }
 
 const TeamMember = ({ name, title, bio, imageSrc }: TeamMemberProps) => (
