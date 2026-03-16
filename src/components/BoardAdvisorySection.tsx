@@ -1,4 +1,4 @@
-import ImagePlaceholder from "./ImagePlaceholder";
+import boardImg from "@/assets/board.png";
 
 const BoardAdvisorySection = () => {
   return (
