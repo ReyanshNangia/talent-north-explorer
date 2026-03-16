@@ -1,6 +1,6 @@
 import Navbar from "@/components/Navbar";
 import executiveSearchImg from "@/assets/executive-search-process.png";
-import recceeImg from "@/assets/reccee_and_vantage.png";
+const recceeImg = "/lovable-uploads/f698d70e-c5a3-4b74-8535-161632c7bdd3.png";
 import talentMappingImg from "@/assets/talent_mapping.png";
 import leadershipImg from "@/assets/leadership_image.jpeg";
 import familyImg from "@/assets/Family_image.png";
