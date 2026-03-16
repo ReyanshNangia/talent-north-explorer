@@ -39,7 +39,7 @@ const Navbar = () => {
         <img
           src={logoImg}
           alt="Talent North"
-          className={`h-10 md:h-12 w-auto transition-all duration-500 ${
+          className={`h-14 md:h-16 w-auto transition-all duration-500 ${
             scrolled ? "" : "brightness-0 invert"
           }`}
         />
@@ -48,10 +48,10 @@ const Navbar = () => {
         <ul className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <li key={link.href}>
-              <button
+                <button
                 onClick={() => handleClick(link.href)}
-                className={`text-sm font-medium transition-colors duration-300 hover:text-primary ${
-                  scrolled ? "text-secondary" : "text-white/90 hover:text-white"
+                className={`text-base font-medium transition-colors duration-300 hover:text-primary ${
+                  scrolled ? "text-foreground" : "text-white/90 hover:text-white"
                 }`}
               >
                 {link.label}

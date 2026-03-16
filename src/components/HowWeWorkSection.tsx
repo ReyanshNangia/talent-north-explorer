@@ -2,20 +2,20 @@
 
 const points = [
   {
-    title: "Partner-led from start to finish.",
-    desc: "Partners involved on every mandate. No hand-offs.",
+    title: "Partner-led, end to end",
+    desc: "Every mandate is led by a Partner. No hand-offs. No dilution.",
   },
   {
     title: "Context before candidates",
-    desc: "We invest upfront to understand your business requirement, culture, and leadership expectations.",
+    desc: "We invest early to understand your business priorities, culture, and leadership expectations before engaging the market.",
   },
   {
-    title: "Precision over volume",
-    desc: "Shortlists built on fit and future potential, not speed.",
+    title: "Precision and Pace over Volume",
+    desc: "Shortlists built for strategic alignment and sustained performance, not just volume.",
   },
   {
-    title: "Long-term impact",
-    desc: "We prioritise leadership hires who perform, adapt, and stay.",
+    title: "Built for lasting impact",
+    desc: "We focus on hires who perform, evolve, and stay.",
   },
 ];
 

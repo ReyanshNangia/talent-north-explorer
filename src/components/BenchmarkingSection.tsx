@@ -22,12 +22,15 @@ const BenchmarkingSection = () => {
         <div className="flex flex-col lg:flex-row-reverse gap-12 lg:gap-16 items-start">
           {/* Text */}
           <div className="flex-1 w-full">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-8 leading-tight">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 leading-tight">
               Benchmarking Studies{" "}
-              <span className="block text-lg md:text-xl font-normal text-muted-foreground mt-2">
-                Commissioned studies delivering actionable data to address real-world business and talent challenges
+              <span className="block text-lg md:text-xl font-normal text-muted-foreground mt-2 italic">
+                Market-Calibrated Insight for Talent &amp; Organisation Decisions
               </span>
             </h2>
+            <p className="text-muted-foreground leading-relaxed text-base md:text-lg mb-8">
+              Commissioned studies designed to provide objective data against defined business and talent questions. Each study is scoped to address a specific gap, risk, or decision requirement.
+            </p>
             <div className="space-y-6">
               {cards.map((c, i) => (
                 <div

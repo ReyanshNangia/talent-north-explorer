@@ -8,6 +8,8 @@ import HeroSection from "@/components/HeroSection";
 import ContentSection from "@/components/ContentSection";
 import HowWeWorkSection from "@/components/HowWeWorkSection";
 import BenchmarkingSection from "@/components/BenchmarkingSection";
+import BoardAdvisorySection from "@/components/BoardAdvisorySection";
+import ExecutiveCoachingSection from "@/components/ExecutiveCoachingSection";
 import AboutSection from "@/components/AboutSection";
 import TeamSection from "@/components/TeamSection";
 import Footer from "@/components/Footer";
@@ -62,17 +64,27 @@ const Index = () => {
 
       {/* 5. Talent Mapping – image left */}
       <ContentSection
-        heading="Talent Mapping – Proactive Leadership Pipeline & Market Intelligence"
+        heading={
+          <>
+            Talent Mapping{" "}
+            <span className="block text-lg md:text-xl font-normal text-muted-foreground mt-2 italic">
+              Leadership Market Visibility &amp; Pipeline Readiness
+            </span>
+          </>
+        }
         imageLabel="Talent Mapping Image"
         imageSrc={talentMappingImg}
         imageRight={false}
         altBg
       >
         <p>
-          Talent Mapping enables organisations to build proactive talent pipelines for critical roles, reducing vacancy risk and enabling rapid hiring activation. Pre-identified candidates with preliminary intelligence ensure leadership continuity at short notice.
+          Leadership readiness requires both internal clarity and external awareness.
         </p>
         <p>
-          The framework benchmarks internal talent against external market availability to identify capability gaps and lateral promotion opportunities. It also delivers insight into compensation positioning, talent development practices, and employer perception to strengthen attraction and retention strategies.
+          Talent Mapping provides structured visibility into leadership markets alongside internal depth. It aligns internal capability with external availability, highlighting succession gaps, mobility opportunities, and compensation positioning.
+        </p>
+        <p>
+          The outcome is informed leadership decisions grounded in current market intelligence rather than reactive search.
         </p>
       </ContentSection>
 
@@ -96,21 +108,37 @@ const Index = () => {
 
       {/* 8. Family Business Succession Planning – image left */}
       <ContentSection
-        heading="Family Business Succession Planning – Aligning ownership, leadership & family priorities for sustainable continuity"
+        heading={
+          <>
+            Family Business Succession Planning{" "}
+            <span className="block text-lg md:text-xl font-normal text-muted-foreground mt-2 italic">
+              Aligning ownership, leadership &amp; family priorities for sustainable continuity
+            </span>
+          </>
+        }
         imageLabel="Succession Planning Image"
         imageSrc={familyImg}
         imageRight={false}
         altBg
       >
         <p>
-          Our Three-Circle succession framework helps family-owned businesses navigate the intersection of ownership, family, and business priorities. We support families in addressing governance challenges, interpersonal dynamics, and asset transition planning to deliver aligned succession strategies.
+          Aligning ownership, leadership, and family priorities for long-term continuity.
         </p>
         <p>
-          This results in clear ownership transition, leadership continuity, and long-term family–business alignment.
+          Through our Three-Circle framework, we bring clarity to governance, leadership transition, and family dynamics, enabling structured succession decisions grounded in alignment and foresight.
+        </p>
+        <p>
+          Resulting in clear ownership transfer, leadership stability, and sustained family–enterprise cohesion.
         </p>
       </ContentSection>
 
-      {/* 9. About */}
+      {/* 9. Board Advisory */}
+      <BoardAdvisorySection />
+
+      {/* 10. Executive Coaching */}
+      <ExecutiveCoachingSection />
+
+      {/* 11. About */}
       <AboutSection />
 
       {/* 10. Team */}
