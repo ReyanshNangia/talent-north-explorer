@@ -132,7 +132,13 @@ const Index = () => {
         </p>
       </ContentSection>
 
-      {/* 9. About */}
+      {/* 9. Board Advisory */}
+      <BoardAdvisorySection />
+
+      {/* 10. Executive Coaching */}
+      <ExecutiveCoachingSection />
+
+      {/* 11. About */}
       <AboutSection />
 
       {/* 10. Team */}
