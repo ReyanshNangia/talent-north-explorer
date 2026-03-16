@@ -39,7 +39,7 @@ const Navbar = () => {
         <img
           src={logoImg}
           alt="Talent North"
-          className={`h-10 md:h-12 w-auto transition-all duration-500 ${
+          className={`h-14 md:h-16 w-auto transition-all duration-500 ${
             scrolled ? "" : "brightness-0 invert"
           }`}
         />
