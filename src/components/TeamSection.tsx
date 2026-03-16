@@ -10,7 +10,7 @@ interface TeamMemberProps {
   linkedIn?: string;
 }
 
-const TeamMember = ({ name, title, bio, imageSrc }: TeamMemberProps) => (
+const TeamMember = ({ name, title, bio, imageSrc, linkedIn }: TeamMemberProps) => (
   <div className="flex flex-col items-center text-center">
     <div className="w-48 h-48 mb-6">
       <img src={imageSrc} alt={name} className="rounded-full w-full h-full object-cover shadow-md" />
@@ -22,7 +22,9 @@ const TeamMember = ({ name, title, bio, imageSrc }: TeamMemberProps) => (
     </div>
     <div className="flex gap-3 mt-6">
       <a
-        href="#"
+        href={linkedIn || "#"}
+        target="_blank"
+        rel="noopener noreferrer"
         className="inline-flex items-center gap-2 rounded-lg border border-border bg-card px-5 py-2.5 text-sm font-medium text-foreground shadow-sm hover:bg-accent transition-colors"
       >
         <Linkedin className="w-4 h-4" />
