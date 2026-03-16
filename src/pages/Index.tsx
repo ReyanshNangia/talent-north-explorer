@@ -106,7 +106,7 @@ const Index = () => {
         </p>
       </ContentSection>
 
-      {/* 8. Family Business Succession Planning – image left */}
+      {/* 8. Family Business Succession Planning – image right */}
       <ContentSection
         heading={
           <>
@@ -118,7 +118,7 @@ const Index = () => {
         }
         imageLabel="Succession Planning Image"
         imageSrc={familyImg}
-        imageRight={false}
+        imageRight
         altBg
       >
         <p>
