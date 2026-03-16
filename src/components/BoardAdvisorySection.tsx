@@ -4,7 +4,7 @@ const BoardAdvisorySection = () => {
   return (
     <section className="section-padding bg-background">
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">
+        <div className="flex flex-col lg:flex-row-reverse gap-12 lg:gap-16 items-center">
           {/* Text */}
           <div className="flex-1 w-full">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 leading-tight">
