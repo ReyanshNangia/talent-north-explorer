@@ -91,12 +91,12 @@ const Index = () => {
       {/* 6. Benchmarking Studies – image left */}
       <BenchmarkingSection />
 
-      {/* 7. Leadership Development – image right */}
+      {/* 7. Leadership Development – image left */}
       <ContentSection
         heading="Leadership Development – Aligning Talent, Culture & Performance"
         imageLabel="Leadership Development Image"
         imageSrc={leadershipImg}
-        imageRight
+        imageRight={false}
       >
         <p>
           Our leadership development framework helps organisations align purpose and values, optimise leadership and team effectiveness, strengthen culture-to-performance outcomes, and deliver tailored change solutions.
