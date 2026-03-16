@@ -62,17 +62,27 @@ const Index = () => {
 
       {/* 5. Talent Mapping – image left */}
       <ContentSection
-        heading="Talent Mapping – Proactive Leadership Pipeline & Market Intelligence"
+        heading={
+          <>
+            Talent Mapping{" "}
+            <span className="block text-lg md:text-xl font-normal text-muted-foreground mt-2 italic">
+              Leadership Market Visibility &amp; Pipeline Readiness
+            </span>
+          </>
+        }
         imageLabel="Talent Mapping Image"
         imageSrc={talentMappingImg}
         imageRight={false}
         altBg
       >
         <p>
-          Talent Mapping enables organisations to build proactive talent pipelines for critical roles, reducing vacancy risk and enabling rapid hiring activation. Pre-identified candidates with preliminary intelligence ensure leadership continuity at short notice.
+          Leadership readiness requires both internal clarity and external awareness.
         </p>
         <p>
-          The framework benchmarks internal talent against external market availability to identify capability gaps and lateral promotion opportunities. It also delivers insight into compensation positioning, talent development practices, and employer perception to strengthen attraction and retention strategies.
+          Talent Mapping provides structured visibility into leadership markets alongside internal depth. It aligns internal capability with external availability, highlighting succession gaps, mobility opportunities, and compensation positioning.
+        </p>
+        <p>
+          The outcome is informed leadership decisions grounded in current market intelligence rather than reactive search.
         </p>
       </ContentSection>
 
