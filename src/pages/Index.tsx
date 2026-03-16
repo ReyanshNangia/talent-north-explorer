@@ -8,6 +8,8 @@ import HeroSection from "@/components/HeroSection";
 import ContentSection from "@/components/ContentSection";
 import HowWeWorkSection from "@/components/HowWeWorkSection";
 import BenchmarkingSection from "@/components/BenchmarkingSection";
+import BoardAdvisorySection from "@/components/BoardAdvisorySection";
+import ExecutiveCoachingSection from "@/components/ExecutiveCoachingSection";
 import AboutSection from "@/components/AboutSection";
 import TeamSection from "@/components/TeamSection";
 import Footer from "@/components/Footer";
