@@ -17,16 +17,16 @@ const ContentSection = ({
   imageSrc,
   imageRight = true,
   altBg = false,
-  id,
+  id
 }: ContentSectionProps) => {
   return (
     <section id={id} className={`section-padding ${altBg ? "section-alt-bg" : "bg-background"}`}>
       <div className="max-w-7xl mx-auto">
         <div
           className={`flex flex-col ${
-            imageRight ? "lg:flex-row" : "lg:flex-row-reverse"
-          } gap-12 lg:gap-16 items-center`}
-        >
+          imageRight ? "lg:flex-row" : "lg:flex-row-reverse"} gap-12 lg:gap-16 items-center`
+          }>
+          
           {/* Text */}
           <div className="flex-1 w-full">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 leading-tight">
@@ -39,16 +39,16 @@ const ContentSection = ({
 
           {/* Image */}
           <div className="flex-1 w-full">
-            {imageSrc ? (
-              <img src={imageSrc} alt={imageLabel} className="w-full rounded-xl shadow-sm" />
-            ) : (
-              <ImagePlaceholder label={imageLabel} />
-            )}
+            {imageSrc ?
+            <img src={imageSrc} alt={imageLabel} className="w-full rounded-xl shadow-none" /> :
+
+            <ImagePlaceholder label={imageLabel} />
+            }
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default ContentSection;
