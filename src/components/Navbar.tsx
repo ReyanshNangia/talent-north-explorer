@@ -48,10 +48,10 @@ const Navbar = () => {
         <ul className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <li key={link.href}>
-              <button
+                <button
                 onClick={() => handleClick(link.href)}
-                className={`text-sm font-medium transition-colors duration-300 hover:text-primary ${
-                  scrolled ? "text-secondary" : "text-white/90 hover:text-white"
+                className={`text-base font-medium transition-colors duration-300 hover:text-primary ${
+                  scrolled ? "text-foreground" : "text-white/90 hover:text-white"
                 }`}
               >
                 {link.label}

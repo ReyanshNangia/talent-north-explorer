@@ -106,17 +106,27 @@ const Index = () => {
 
       {/* 8. Family Business Succession Planning – image left */}
       <ContentSection
-        heading="Family Business Succession Planning – Aligning ownership, leadership & family priorities for sustainable continuity"
+        heading={
+          <>
+            Family Business Succession Planning{" "}
+            <span className="block text-lg md:text-xl font-normal text-muted-foreground mt-2 italic">
+              Aligning ownership, leadership &amp; family priorities for sustainable continuity
+            </span>
+          </>
+        }
         imageLabel="Succession Planning Image"
         imageSrc={familyImg}
         imageRight={false}
         altBg
       >
         <p>
-          Our Three-Circle succession framework helps family-owned businesses navigate the intersection of ownership, family, and business priorities. We support families in addressing governance challenges, interpersonal dynamics, and asset transition planning to deliver aligned succession strategies.
+          Aligning ownership, leadership, and family priorities for long-term continuity.
         </p>
         <p>
-          This results in clear ownership transition, leadership continuity, and long-term family–business alignment.
+          Through our Three-Circle framework, we bring clarity to governance, leadership transition, and family dynamics, enabling structured succession decisions grounded in alignment and foresight.
+        </p>
+        <p>
+          Resulting in clear ownership transfer, leadership stability, and sustained family–enterprise cohesion.
         </p>
       </ContentSection>
 

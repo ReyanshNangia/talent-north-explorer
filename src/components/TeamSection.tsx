@@ -50,11 +50,13 @@ const TeamSection = () => {
             name="Maj Praful Nangia"
             title="Partner – Talent North"
             imageSrc={prafulImg}
+            linkedIn="https://www.linkedin.com/in/prafulnangia/"
             bio={
               <>
-                <p>Praful is a seasoned executive search and leadership advisory professional who works closely with clients to decode complex talent needs in fast-evolving business environments. He has led and delivered critical cross-border leadership mandates, attracting global talent to Indian organisations.</p>
-                <p>Prior to founding Talent North, Praful led the Consumer, High-Growth & Professional Services practice and headed the Delhi–NCR offices at Hunt Partners.</p>
-                <p>A graduate of the National Defence Academy, Khadakwasla, Praful was commissioned into the Regiment of Artillery in 2000. During his seven-year tenure with the Indian Army, he served in the Western Sector during Operation Parakram and in counter-terrorism operations under Operation Rakshak in Jammu & Kashmir.</p>
+                <p>Praful is an executive search and leadership advisory professional who works with clients to decode complex talent needs in evolving business environments. He has led cross-border leadership mandates, bringing global talent into Indian organisations.</p>
+                <p>He partners with boards, promoters, and leadership teams on senior and C-suite hiring, and advises on leadership structure, succession planning, and market talent intelligence.</p>
+                <p>Prior to founding Talent North, Praful led the Consumer, High-Growth &amp; Professional Services practice and headed the Delhi–NCR office at Hunt Partners, advising boards and leadership teams on senior and C-suite mandates.</p>
+                <p>A graduate of the National Defence Academy, Khadakwasla, Praful was commissioned into the Regiment of Artillery in 2000. During his seven-year tenure with the Indian Army, he served in the Western Sector during Operation Parakram and in counter-terrorism operations under Operation Rakshak in Jammu &amp; Kashmir.</p>
                 <p>He is an alumnus of ISB Hyderabad and holds an MBA in Marketing and Strategy.</p>
               </>
             }
@@ -63,13 +65,13 @@ const TeamSection = () => {
             name="Geetanjali Ohri"
             title="Partner – Talent North"
             imageSrc={geetanjaliImg}
+            linkedIn="https://www.linkedin.com/in/geetanjaliohri/"
             bio={
               <>
-                <p>Geetanjali Ohri is a seasoned business professional and certified Life Coach with over two and a half decades of experience across multinationals, Indian enterprises, and start-ups. Her career spans deep engagement with business strategy, leadership transitions, and organizational scale, enabling her to identify talent needs in direct alignment with business context.</p>
-                <p>At Talent North, Geetanjali works closely with boards, founders, and leadership teams on senior and leadership hiring mandates. Her executive search approach is rooted in deep business understanding, transition readiness, and cultural alignment, helping organizations build leadership teams that are equipped to scale, lead change, and deliver sustained outcomes rather than simply fill roles.</p>
-                <p>She brings strong advisory experience in transition and scale, supporting organizations in bridging the gap between vision and execution. Geetanjali began her career with GE and has held business enablement roles at organizations such as Walmart and Max Life Insurance, spanning strategy, customer experience, and change management. She played a key role in aligning business strategy, people, and culture to drive organizational effectiveness. Her tenure at Clix Capital further strengthened her understanding of the business, talent, and cultural challenges common to high-growth environments.</p>
-                <p>In addition, Geetanjali has extensive experience coaching business leaders, founders, and promoters on critical leadership capabilities including vision alignment, business communication, conflict resolution, and performance dialogues.</p>
-                <p>She completed the Executive Program in Management at Cornell University and is qualified in Design Thinking and Six Sigma. She has been recognized as India's Top Customer Experience Professional and India's Top Content and Brand Custodian. An active student of behavioural science, she applies its principles extensively in leadership and people decision-making.</p>
+                <p>Geetanjali is a business leader and PCC-certified executive coach with over twenty-five years of experience across multinationals, Indian enterprises, and high-growth start-ups. She works closely with founders, and leadership teams to align senior talent decisions with business context and organisational priorities.</p>
+                <p>She leads senior and C-suite mandates, with a focus on leadership transitions, cultural alignment, and scale readiness.</p>
+                <p>Prior to Talent North, Geetanjali held business roles at GE, Walmart, Max Life Insurance, and Clix Capital across strategy, customer experience, sales, marketing and organisational effectiveness. Her experience spans aligning business strategy with people capability through phases of growth and change.</p>
+                <p>She completed the Executive Program in Management at Cornell University and is qualified in Design Thinking and Six Sigma. She has been recognised as India's Top Customer Experience Professional and India's Top Content and Brand Custodian.</p>
               </>
             }
           />
