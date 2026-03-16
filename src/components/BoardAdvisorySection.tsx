@@ -57,7 +57,7 @@ const BoardAdvisorySection = () => {
 
           {/* Image */}
           <div className="flex-1 w-full">
-            <ImagePlaceholder label="Board Advisory" />
+            <img src={boardImg} alt="Board Advisory" className="w-full rounded-xl shadow-sm" />
           </div>
         </div>
       </div>
