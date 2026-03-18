@@ -1,11 +1,11 @@
 const AboutSection = () => {
   return (
     <section id="about" className="section-padding bg-background">
-      <div className="max-w-3xl mx-auto text-center">
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-8">
+      <div className="max-w-7xl mx-auto">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-8 text-left">
           About Talent North
         </h2>
-        <div className="space-y-5 text-muted-foreground leading-relaxed text-base md:text-lg text-left md:text-center">
+        <div className="space-y-5 text-muted-foreground leading-relaxed text-base md:text-lg text-justify">
           <p>
             Talent North is a leadership search and advisory firm focused on helping organisations make critical talent and leadership decisions with clarity and confidence.
           </p>

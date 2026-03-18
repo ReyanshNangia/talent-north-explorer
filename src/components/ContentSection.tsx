@@ -32,7 +32,7 @@ const ContentSection = ({
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 leading-tight">
               {heading}
             </h2>
-            <div className="space-y-4 text-muted-foreground leading-relaxed text-base md:text-lg">
+            <div className="space-y-4 text-muted-foreground leading-relaxed text-base md:text-lg text-justify">
               {children}
             </div>
           </div>
@@ -41,14 +41,12 @@ const ContentSection = ({
           <div className="flex-1 w-full">
             {imageSrc ?
             <img src={imageSrc} alt={imageLabel} className="w-full rounded-xl shadow-none" /> :
-
             <ImagePlaceholder label={imageLabel} />
             }
           </div>
         </div>
       </div>
     </section>);
-
 };
 
 export default ContentSection;

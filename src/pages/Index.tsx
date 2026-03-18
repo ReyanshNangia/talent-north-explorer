@@ -26,8 +26,8 @@ const Index = () => {
         id="executive-search"
         heading={
           <>
-            Executive search{" "}
-            <span className="block text-lg md:text-xl font-normal text-muted-foreground mt-2">
+            Executive Search
+            <span className="block text-base md:text-lg font-normal text-muted-foreground mt-2 italic whitespace-nowrap">
               Delivering leadership hires that shape business outcomes.
             </span>
           </>
@@ -49,7 +49,14 @@ const Index = () => {
 
       {/* 4. Recce & Vantage – image right */}
       <ContentSection
-        heading="Recce & Vantage - Leadership Assessment & Talent Intelligence"
+        heading={
+          <>
+            Recce &amp; Vantage
+            <span className="block text-base md:text-lg font-normal text-muted-foreground mt-2 italic whitespace-nowrap">
+              Leadership Assessment &amp; Talent Intelligence
+            </span>
+          </>
+        }
         imageLabel="Recce & Vantage Image"
         imageSrc={recceeImg}
         imageRight
@@ -66,8 +73,8 @@ const Index = () => {
       <ContentSection
         heading={
           <>
-            Talent Mapping{" "}
-            <span className="block text-lg md:text-xl font-normal text-muted-foreground mt-2 italic">
+            Talent Mapping
+            <span className="block text-base md:text-lg font-normal text-muted-foreground mt-2 italic whitespace-nowrap">
               Leadership Market Visibility &amp; Pipeline Readiness
             </span>
           </>
@@ -88,12 +95,19 @@ const Index = () => {
         </p>
       </ContentSection>
 
-      {/* 6. Benchmarking Studies – image left */}
+      {/* 6. Benchmarking Studies – image right */}
       <BenchmarkingSection />
 
       {/* 7. Leadership Development – image left */}
       <ContentSection
-        heading="Leadership Development – Aligning Talent, Culture & Performance"
+        heading={
+          <>
+            Leadership Development
+            <span className="block text-base md:text-lg font-normal text-muted-foreground mt-2 italic whitespace-nowrap">
+              Aligning Talent, Culture &amp; Performance
+            </span>
+          </>
+        }
         imageLabel="Leadership Development Image"
         imageSrc={leadershipImg}
         imageRight={false}
@@ -110,8 +124,8 @@ const Index = () => {
       <ContentSection
         heading={
           <>
-            Family Business Succession Planning{" "}
-            <span className="block text-lg md:text-xl font-normal text-muted-foreground mt-2 italic">
+            Family Business Succession Planning
+            <span className="block text-base md:text-lg font-normal text-muted-foreground mt-2 italic whitespace-nowrap">
               Aligning ownership, leadership &amp; family priorities for sustainable continuity
             </span>
           </>
@@ -121,9 +135,6 @@ const Index = () => {
         imageRight
         altBg
       >
-        <p>
-          Aligning ownership, leadership, and family priorities for long-term continuity.
-        </p>
         <p>
           Through our Three-Circle framework, we bring clarity to governance, leadership transition, and family dynamics, enabling structured succession decisions grounded in alignment and foresight.
         </p>
@@ -141,7 +152,7 @@ const Index = () => {
       {/* 11. About */}
       <AboutSection />
 
-      {/* 10. Team */}
+      {/* 12. Team */}
       <TeamSection />
 
       {/* Footer */}

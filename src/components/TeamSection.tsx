@@ -17,7 +17,7 @@ const TeamMember = ({ name, title, bio, imageSrc, linkedIn }: TeamMemberProps) =
     </div>
     <h3 className="text-xl font-bold text-foreground">{name}</h3>
     <p className="text-primary font-medium mb-4">{title}</p>
-    <div className="text-muted-foreground leading-relaxed text-sm md:text-base space-y-3 text-left">
+    <div className="text-muted-foreground leading-relaxed text-sm md:text-base space-y-3 text-justify">
       {bio}
     </div>
     <div className="flex gap-3 mt-6">
