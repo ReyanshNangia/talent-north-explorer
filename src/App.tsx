@@ -9,7 +9,7 @@ import NotFound from "./pages/NotFound";
 import logoImg from "@/assets/logo-transparent.png";
 
 // ─── TOGGLE THIS TO SWITCH BETWEEN COMING SOON AND LIVE SITE ───
-const COMING_SOON = true;
+const COMING_SOON = false;
 // ───────────────────────────────────────────────────────────────
 
 const ComingSoon = () => (
