@@ -8,7 +8,7 @@ const ExecutiveCoachingSection = () => {
         <div className="mb-12">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 leading-tight">
             Executive Coaching
-            <span className="block text-base md:text-lg font-normal text-muted-foreground mt-2 italic whitespace-nowrap">
+            <span className="block text-base md:text-lg font-normal text-muted-foreground mt-2 italic sm:whitespace-nowrap">
               Focused conversations. Measurable outcomes.
             </span>
           </h2>

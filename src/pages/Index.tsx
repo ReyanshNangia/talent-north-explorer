@@ -27,7 +27,7 @@ const Index = () => {
         heading={
           <>
             Executive Search
-            <span className="block text-base md:text-lg font-normal text-muted-foreground mt-2 italic whitespace-nowrap">
+            <span className="block text-base md:text-lg font-normal text-muted-foreground mt-2 italic sm:whitespace-nowrap">
               Delivering leadership hires that shape business outcomes.
             </span>
           </>
@@ -52,7 +52,7 @@ const Index = () => {
         heading={
           <>
             Recce &amp; Vantage
-            <span className="block text-base md:text-lg font-normal text-muted-foreground mt-2 italic whitespace-nowrap">
+            <span className="block text-base md:text-lg font-normal text-muted-foreground mt-2 italic sm:whitespace-nowrap">
               Leadership Assessment &amp; Talent Intelligence
             </span>
           </>
@@ -74,7 +74,7 @@ const Index = () => {
         heading={
           <>
             Talent Mapping
-            <span className="block text-base md:text-lg font-normal text-muted-foreground mt-2 italic whitespace-nowrap">
+            <span className="block text-base md:text-lg font-normal text-muted-foreground mt-2 italic sm:whitespace-nowrap">
               Leadership Market Visibility &amp; Pipeline Readiness
             </span>
           </>
@@ -103,7 +103,7 @@ const Index = () => {
         heading={
           <>
             Leadership Development
-            <span className="block text-base md:text-lg font-normal text-muted-foreground mt-2 italic whitespace-nowrap">
+            <span className="block text-base md:text-lg font-normal text-muted-foreground mt-2 italic sm:whitespace-nowrap">
               Aligning Talent, Culture &amp; Performance
             </span>
           </>
@@ -125,7 +125,7 @@ const Index = () => {
         heading={
           <>
             Family Business Succession Planning
-            <span className="block text-base md:text-lg font-normal text-muted-foreground mt-2 italic whitespace-nowrap">
+            <span className="block text-base md:text-lg font-normal text-muted-foreground mt-2 italic sm:whitespace-nowrap">
               Aligning ownership, leadership &amp; family priorities for sustainable continuity
             </span>
           </>
