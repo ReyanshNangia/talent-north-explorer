@@ -31,13 +31,15 @@ const TeamMember = ({ name, title, bio, imageSrc, linkedIn, email }: TeamMemberP
         <Linkedin className="w-4 h-4" />
         LinkedIn
       </a>
-      <a
-        href={email ? `mailto:${email}` : "#"}
-        className="inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-5 py-3 text-sm font-medium text-primary-foreground shadow-sm hover:opacity-90 transition-opacity min-h-[44px]"
-      >
-        <Mail className="w-4 h-4" />
-        Email
-      </a>
+      {email && (
+        <a
+          href={`mailto:${email}`}
+          className="inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-5 py-3 text-sm font-medium text-primary-foreground shadow-sm hover:opacity-90 transition-opacity min-h-[44px]"
+        >
+          <Mail className="w-4 h-4" />
+          Email
+        </a>
+      )}
     </div>
   </div>
 );
