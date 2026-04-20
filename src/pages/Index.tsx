@@ -16,7 +16,7 @@ import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background overflow-x-hidden">
       <Navbar />
       {/* 1. Hero */}
       <HeroSection />
@@ -32,7 +32,7 @@ const Index = () => {
             </span>
           </>
         }
-        imageLabel="Executive Search Image"
+        imageLabel="Executive search process diagram – diagnosis, research, candidate assessment and shortlist presentation"
         imageSrc={executiveSearchImg}
         imageRight
       >
@@ -57,7 +57,7 @@ const Index = () => {
             </span>
           </>
         }
-        imageLabel="Recce & Vantage Image"
+        imageLabel="Recce and Vantage – leadership assessment and talent intelligence framework"
         imageSrc={recceeImg}
         imageRight
       >
@@ -79,7 +79,7 @@ const Index = () => {
             </span>
           </>
         }
-        imageLabel="Talent Mapping Image"
+        imageLabel="Talent mapping – leadership market visibility and internal pipeline readiness"
         imageSrc={talentMappingImg}
         imageRight={false}
         altBg
@@ -108,7 +108,7 @@ const Index = () => {
             </span>
           </>
         }
-        imageLabel="Leadership Development Image"
+        imageLabel="Leadership development core offerings – alignment, talent and leadership, culture and performance, change and bespoke solutions"
         imageSrc={leadershipImg}
         imageRight={false}
       >
@@ -130,7 +130,7 @@ const Index = () => {
             </span>
           </>
         }
-        imageLabel="Succession Planning Image"
+        imageLabel="Family business succession planning – three-circle framework for ownership, leadership and family alignment"
         imageSrc={familyImg}
         imageRight
         altBg
