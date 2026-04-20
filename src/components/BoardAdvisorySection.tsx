@@ -59,7 +59,7 @@ const BoardAdvisorySection = () => {
           {/* Image */}
           <div className="flex-1 w-full">
             <div className="bg-slate-50 rounded-xl p-4">
-              <img src={boardImg} alt="Board Advisory" className="w-full" />
+              <img src={boardImg} alt="Board advisory – identifying competent directors and building effective advisory boards" title="Board Advisory" loading="lazy" decoding="async" className="w-full h-auto" />
             </div>
           </div>
         </div>

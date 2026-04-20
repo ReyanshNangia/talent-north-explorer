@@ -16,7 +16,7 @@ import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background overflow-x-hidden">
       <Navbar />
       {/* 1. Hero */}
       <HeroSection />
@@ -27,12 +27,12 @@ const Index = () => {
         heading={
           <>
             Executive Search
-            <span className="block text-base md:text-lg font-normal text-muted-foreground mt-2 italic whitespace-nowrap">
+            <span className="block text-base md:text-lg font-normal text-muted-foreground mt-2 italic sm:whitespace-nowrap">
               Delivering leadership hires that shape business outcomes.
             </span>
           </>
         }
-        imageLabel="Executive Search Image"
+        imageLabel="Executive search process diagram – diagnosis, research, candidate assessment and shortlist presentation"
         imageSrc={executiveSearchImg}
         imageRight
       >
@@ -52,12 +52,12 @@ const Index = () => {
         heading={
           <>
             Recce &amp; Vantage
-            <span className="block text-base md:text-lg font-normal text-muted-foreground mt-2 italic whitespace-nowrap">
+            <span className="block text-base md:text-lg font-normal text-muted-foreground mt-2 italic sm:whitespace-nowrap">
               Leadership Assessment &amp; Talent Intelligence
             </span>
           </>
         }
-        imageLabel="Recce & Vantage Image"
+        imageLabel="Recce and Vantage – leadership assessment and talent intelligence framework"
         imageSrc={recceeImg}
         imageRight
       >
@@ -74,12 +74,12 @@ const Index = () => {
         heading={
           <>
             Talent Mapping
-            <span className="block text-base md:text-lg font-normal text-muted-foreground mt-2 italic whitespace-nowrap">
+            <span className="block text-base md:text-lg font-normal text-muted-foreground mt-2 italic sm:whitespace-nowrap">
               Leadership Market Visibility &amp; Pipeline Readiness
             </span>
           </>
         }
-        imageLabel="Talent Mapping Image"
+        imageLabel="Talent mapping – leadership market visibility and internal pipeline readiness"
         imageSrc={talentMappingImg}
         imageRight={false}
         altBg
@@ -103,12 +103,12 @@ const Index = () => {
         heading={
           <>
             Leadership Development
-            <span className="block text-base md:text-lg font-normal text-muted-foreground mt-2 italic whitespace-nowrap">
+            <span className="block text-base md:text-lg font-normal text-muted-foreground mt-2 italic sm:whitespace-nowrap">
               Aligning Talent, Culture &amp; Performance
             </span>
           </>
         }
-        imageLabel="Leadership Development Image"
+        imageLabel="Leadership development core offerings – alignment, talent and leadership, culture and performance, change and bespoke solutions"
         imageSrc={leadershipImg}
         imageRight={false}
       >
@@ -125,12 +125,12 @@ const Index = () => {
         heading={
           <>
             Family Business Succession Planning
-            <span className="block text-base md:text-lg font-normal text-muted-foreground mt-2 italic whitespace-nowrap">
+            <span className="block text-base md:text-lg font-normal text-muted-foreground mt-2 italic sm:whitespace-nowrap">
               Aligning ownership, leadership &amp; family priorities for sustainable continuity
             </span>
           </>
         }
-        imageLabel="Succession Planning Image"
+        imageLabel="Family business succession planning – three-circle framework for ownership, leadership and family alignment"
         imageSrc={familyImg}
         imageRight
         altBg

@@ -44,7 +44,7 @@ const HowWeWorkSection = () => {
 
           {/* Image */}
           <div className="flex-1 w-full">
-            <img src={howWeWorkImg} alt="How We Work – Strategic approach to executive search" className="w-full rounded-xl shadow-sm" />
+            <img src={howWeWorkImg} alt="Talent North's strategic, partner-led approach to executive search" title="How We Work" loading="lazy" decoding="async" className="w-full h-auto rounded-xl shadow-sm" />
           </div>
         </div>
       </div>

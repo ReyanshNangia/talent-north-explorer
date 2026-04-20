@@ -38,8 +38,8 @@ const Navbar = () => {
         {/* Logo placeholder */}
         <img
           src={logoImg}
-          alt="Talent North"
-          className="h-14 md:h-16 w-auto"
+          alt="Talent North – executive search and leadership advisory"
+          className="h-12 md:h-16 w-auto"
         />
 
         {/* Desktop links */}
@@ -61,12 +61,13 @@ const Navbar = () => {
         {/* Mobile hamburger */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className={`md:hidden transition-colors duration-300 ${
+          className={`md:hidden inline-flex items-center justify-center w-11 h-11 -mr-2 transition-colors duration-300 ${
             scrolled ? "text-foreground" : "text-white"
           }`}
           aria-label="Toggle menu"
+          aria-expanded={mobileOpen}
         >
-          {mobileOpen ? <X size={24} /> : <Menu size={24} />}
+          {mobileOpen ? <X size={26} /> : <Menu size={26} />}
         </button>
       </div>
 
@@ -78,7 +79,7 @@ const Navbar = () => {
               <li key={link.href}>
                 <button
                   onClick={() => handleClick(link.href)}
-                  className="w-full text-left py-3 text-sm font-medium text-secondary hover:text-primary transition-colors"
+                  className="w-full text-left py-4 text-base font-medium text-secondary hover:text-primary transition-colors min-h-[44px]"
                 >
                   {link.label}
                 </button>

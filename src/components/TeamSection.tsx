@@ -12,27 +12,27 @@ interface TeamMemberProps {
 
 const TeamMember = ({ name, title, bio, imageSrc, linkedIn }: TeamMemberProps) => (
   <div className="flex flex-col items-center text-center">
-    <div className="w-48 h-48 mb-6">
-      <img src={imageSrc} alt={name} className="rounded-full w-full h-full object-cover object-center shadow-md" data-name={name} style={name === "Geetanjali Ohri" ? { objectPosition: "center 20%" } : undefined} />
+    <div className="w-40 h-40 sm:w-48 sm:h-48 mb-6">
+      <img src={imageSrc} alt={`${name}, ${title} at Talent North`} title={name} loading="lazy" decoding="async" className="rounded-full w-full h-full object-cover object-center shadow-md" data-name={name} style={name === "Geetanjali Ohri" ? { objectPosition: "center 20%" } : undefined} />
     </div>
     <h3 className="text-xl font-bold text-foreground">{name}</h3>
     <p className="text-primary font-medium mb-4">{title}</p>
     <div className="text-muted-foreground leading-relaxed text-sm md:text-base space-y-3 text-justify">
       {bio}
     </div>
-    <div className="flex gap-3 mt-6">
+    <div className="flex flex-col sm:flex-row gap-3 mt-6 w-full sm:w-auto">
       <a
         href={linkedIn || "#"}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center gap-2 rounded-lg border border-border bg-card px-5 py-2.5 text-sm font-medium text-foreground shadow-sm hover:bg-accent transition-colors"
+        className="inline-flex items-center justify-center gap-2 rounded-lg border border-border bg-card px-5 py-3 text-sm font-medium text-foreground shadow-sm hover:bg-accent transition-colors min-h-[44px]"
       >
         <Linkedin className="w-4 h-4" />
         LinkedIn
       </a>
       <a
         href="#"
-        className="inline-flex items-center gap-2 rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground shadow-sm hover:opacity-90 transition-opacity"
+        className="inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-5 py-3 text-sm font-medium text-primary-foreground shadow-sm hover:opacity-90 transition-opacity min-h-[44px]"
       >
         <Mail className="w-4 h-4" />
         Email
