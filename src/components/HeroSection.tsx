@@ -7,8 +7,10 @@ const HeroSection = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={compassBg}
-          alt="Compass Background"
+          alt="Compass symbolising direction and strategy in executive search"
           className="w-full h-full object-cover"
+          loading="eager"
+          fetchPriority="high"
         />
       </div>
 
@@ -19,10 +21,10 @@ const HeroSection = () => {
       <div className="relative z-20 mt-auto pb-16 md:pb-24 section-padding">
         <div className="max-w-4xl">
           <h1>
-            <span className="block text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-primary">
+            <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-primary">
               Aligning Business and Talent.
             </span>
-            <span className="block text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-foreground whitespace-nowrap">
+            <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-foreground sm:whitespace-nowrap">
               Delivered with Pace and Precision.
             </span>
           </h1>

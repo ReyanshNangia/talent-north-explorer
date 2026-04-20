@@ -40,7 +40,14 @@ const ContentSection = ({
           {/* Image */}
           <div className="flex-1 w-full">
             {imageSrc ?
-            <img src={imageSrc} alt={imageLabel} className="w-full rounded-xl shadow-none" /> :
+            <img
+              src={imageSrc}
+              alt={imageLabel}
+              title={imageLabel}
+              loading="lazy"
+              decoding="async"
+              className="w-full h-auto rounded-xl shadow-none"
+            /> :
             <ImagePlaceholder label={imageLabel} />
             }
           </div>
