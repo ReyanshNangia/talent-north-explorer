@@ -21,7 +21,7 @@ const BenchmarkingSection = () => {
           {/* Image */}
           <div className="flex-1 w-full">
             <div className="bg-slate-50 rounded-xl p-4">
-              <img src={benchmarkingImg} alt="Benchmarking" className="w-full" />
+              <img src={benchmarkingImg} alt="Benchmarking studies – market-calibrated insight for talent and organisation decisions" title="Benchmarking Studies" loading="lazy" decoding="async" className="w-full h-auto" />
             </div>
           </div>
         </div>

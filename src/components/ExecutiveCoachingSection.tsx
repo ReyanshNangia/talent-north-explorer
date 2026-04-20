@@ -40,7 +40,7 @@ const ExecutiveCoachingSection = () => {
           </div>
 
           <div className="flex-1 w-full">
-            <img src={coachingImg} alt="Executive Coaching" className="w-full rounded-xl shadow-sm" />
+            <img src={coachingImg} alt="Executive coaching philosophy – awareness, clarity and conscious leadership choices" title="Executive Coaching" loading="lazy" decoding="async" className="w-full h-auto rounded-xl shadow-sm" />
           </div>
         </div>
       </div>
