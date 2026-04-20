@@ -20,19 +20,19 @@ const TeamMember = ({ name, title, bio, imageSrc, linkedIn }: TeamMemberProps) =
     <div className="text-muted-foreground leading-relaxed text-sm md:text-base space-y-3 text-justify">
       {bio}
     </div>
-    <div className="flex gap-3 mt-6">
+    <div className="flex flex-col sm:flex-row gap-3 mt-6 w-full sm:w-auto">
       <a
         href={linkedIn || "#"}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center gap-2 rounded-lg border border-border bg-card px-5 py-2.5 text-sm font-medium text-foreground shadow-sm hover:bg-accent transition-colors"
+        className="inline-flex items-center justify-center gap-2 rounded-lg border border-border bg-card px-5 py-3 text-sm font-medium text-foreground shadow-sm hover:bg-accent transition-colors min-h-[44px]"
       >
         <Linkedin className="w-4 h-4" />
         LinkedIn
       </a>
       <a
         href="#"
-        className="inline-flex items-center gap-2 rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground shadow-sm hover:opacity-90 transition-opacity"
+        className="inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-5 py-3 text-sm font-medium text-primary-foreground shadow-sm hover:opacity-90 transition-opacity min-h-[44px]"
       >
         <Mail className="w-4 h-4" />
         Email
