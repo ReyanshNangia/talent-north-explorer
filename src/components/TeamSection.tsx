@@ -8,9 +8,10 @@ interface TeamMemberProps {
   bio: React.ReactNode;
   imageSrc: string;
   linkedIn?: string;
+  email?: string;
 }
 
-const TeamMember = ({ name, title, bio, imageSrc, linkedIn }: TeamMemberProps) => (
+const TeamMember = ({ name, title, bio, imageSrc, linkedIn, email }: TeamMemberProps) => (
   <div className="flex flex-col items-center text-center">
     <div className="w-40 h-40 sm:w-48 sm:h-48 mb-6">
       <img src={imageSrc} alt={`${name}, ${title} at Talent North`} title={name} loading="lazy" decoding="async" className="rounded-full w-full h-full object-cover object-center shadow-md" data-name={name} style={name === "Geetanjali Ohri" ? { objectPosition: "center 20%" } : undefined} />
@@ -31,7 +32,7 @@ const TeamMember = ({ name, title, bio, imageSrc, linkedIn }: TeamMemberProps) =
         LinkedIn
       </a>
       <a
-        href="#"
+        href={email ? `mailto:${email}` : "#"}
         className="inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-5 py-3 text-sm font-medium text-primary-foreground shadow-sm hover:opacity-90 transition-opacity min-h-[44px]"
       >
         <Mail className="w-4 h-4" />
@@ -54,6 +55,7 @@ const TeamSection = () => {
             title="Partner – Talent North"
             imageSrc={prafulImg}
             linkedIn="https://www.linkedin.com/in/prafulnangia/"
+            email="Praful.nangia@talentnorth.in"
             bio={
               <>
                 <p>Praful is an executive search and leadership advisory professional who works with clients to decode complex talent needs in evolving business environments. He has led cross-border leadership mandates, bringing global talent into Indian organisations.</p>
@@ -69,6 +71,7 @@ const TeamSection = () => {
             title="Partner – Talent North"
             imageSrc={geetanjaliImg}
             linkedIn="https://www.linkedin.com/in/geetanjaliohri/"
+            email="Geetanjali.ohri@talentnorth.in"
             bio={
               <>
                 <p>Geetanjali is a business leader and PCC-certified executive coach with over twenty-five years of experience across multinationals, Indian enterprises, and high-growth start-ups. She works closely with founders, and leadership teams to align senior talent decisions with business context and organisational priorities.</p>
