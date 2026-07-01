@@ -8,6 +8,29 @@
     <meta name="author" content="Talent North" />
     <meta name="keywords" content="executive search India, leadership advisory, C-suite hiring, talent mapping, succession planning, leadership assessment, board advisory, executive coaching" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+    <script>
+      // Prevent Lovable preview URLs from being indexed; keep custom domain indexable.
+      (function () {
+        var hostname = window.location.hostname;
+        if (hostname.includes('.lovable.app') || hostname.includes('lovableproject.com')) {
+          var robots = document.querySelector('meta[name="robots"]');
+          if (!robots) {
+            robots = document.createElement('meta');
+            robots.name = 'robots';
+            document.head.appendChild(robots);
+          }
+          robots.content = 'noindex, nofollow';
+
+          var googlebot = document.querySelector('meta[name="googlebot"]');
+          if (!googlebot) {
+            googlebot = document.createElement('meta');
+            googlebot.name = 'googlebot';
+            document.head.appendChild(googlebot);
+          }
+          googlebot.content = 'noindex, nofollow';
+        }
+      })();
+    </script>
     <meta name="googlebot" content="index, follow" />
     <link rel="canonical" href="https://talentnorth.lovable.app/" />
     <link rel="icon" type="image/png" href="/logo-transparent.png" />
