@@ -6,6 +6,10 @@ const points = [
     desc: "Every mandate is led by a Partner. No hand-offs. No dilution.",
   },
   {
+    title: "Dynamic Market Intelligence",
+    desc: "Continuous talent mapping, dedicated research, and AI-enabled intelligence uncover exceptional leadership talent beyond conventional search.",
+  },
+  {
     title: "Context before candidates",
     desc: "We invest early to understand your business priorities, culture, and leadership expectations before engaging the market.",
   },

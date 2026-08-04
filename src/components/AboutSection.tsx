@@ -10,10 +10,10 @@ const AboutSection = () => {
             Talent North is a leadership search and advisory firm focused on helping organisations make critical talent and leadership decisions with clarity and confidence.
           </p>
           <p>
-            We bring together disciplined execution, strategic thinking, and deep understanding of leadership dynamics. Our perspective is shaped by experience across high-stakes environments — from military leadership to top-tier consulting and executive search — enabling us to assess, advise, and deliver in complex business contexts.
+            We bring together disciplined execution, strategic thinking, and deep understanding of leadership dynamics. Our perspective is shaped by experience across high-stakes environments, from military leadership to top-tier consulting and executive search, enabling us to assess, advise, and deliver in complex business contexts.
           </p>
           <p>
-            We partner closely with clients to understand their direction, culture, and leadership needs, and work with precision to deliver outcomes that strengthen organisations over the long term.
+            We partner closely with clients to understand their direction, culture, and leadership needs, supported by Dynamic Market Intelligence that combines AI-enabled research, continuous talent mapping, and deep market insights. We work with precision to deliver outcomes that strengthen organisations over the long term.
           </p>
           <p className="font-medium text-foreground">
             Established in 2017, Talent North has delivered leadership and advisory mandates across diverse business contexts.
